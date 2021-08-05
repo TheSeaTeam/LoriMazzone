@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background: whitesmoke
+  }
+
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.loriHouse {
+    width: 100%;
+    height: auto;
+
+}
+
+hr {
+    border: 1px solid black;
+    border-radius: 2px; 
+    margin-top: 15px; 
+    margin-bottom: 15px
+  }
+
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    text-emphasis: bold;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+  }
+
+  .homepage-images {
+    flex-direction: row;
+  }
+  
+  .homepage-images img {
+    height: 33%;
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 3px;
+  }
+
+.video-container {
+    height: 1080px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-container video {
+    min-width: auto;
+    min-height: 1080px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    /*padding: 10px;*/
+}
+
+@media screen and (min-width: 1024px) {
+
+    .video-container {
+        min-height: 1370px;
+    }
+
+    .video-container video {
+        min-height: 1370px;
+}
+}
+
+@media screen and (min-width: 2560px) {
+    
+    .video-container {
+        min-height: 1440px;
+    }
+
+    .video-container video {
+        min-height: 1440px;
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    
+    .video-container {
+        min-height: 2160px;
+    }
+
+    .video-container video {
+        min-height: 2160px;
+    }
+}

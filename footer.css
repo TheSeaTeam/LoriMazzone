@@ -1,0 +1,174 @@
+footer {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color:  #101010;
+    color: whitesmoke;
+}
+
+#optima-logo {
+    width: 180px;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#icon-white {
+    width: 150px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#eho-image {
+    width: 80px;
+    height: auto;
+}
+
+#footer-grid {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 120px 120px 160px 160px;
+    grid-gap: 20px;
+    padding: 30px;
+    grid-template-areas: 
+                        "ab"
+                        "cb"
+                        "ib"
+                        "ob";
+}
+
+.contact-content > a {
+    color: whitesmoke;
+}
+
+#adr-hdr {
+    padding-bottom: 10px;
+}
+
+#cnt-hdr {
+    padding-bottom: 10px;
+}
+
+
+
+.social-content {
+    min-height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.social-content > a {
+    color: whitesmoke;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.eho-mls {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.copy-content {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+.design-content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.address-box {
+    grid-area: ab;
+}
+
+.contact-box {
+    grid-area: cb;
+}
+
+.icon-box {
+    grid-area: ib;
+}
+
+.optima-box {
+    grid-area: ob;
+}
+
+.address-content, .contact-content {
+    font-size: 1.15em;
+}
+
+
+
+@media only screen and (min-width: 650px) {
+    
+    #footer-grid {
+        grid-template-columns: 250px auto 250px;
+        grid-template-rows: 160px 160px;
+        grid-template-areas: 
+                            "ab . ib"
+                            "cb . ob"
+    }
+
+    .icon-content {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .social-content {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .optima-box {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .address-content, .contact-content {
+    font-size: 1.2em;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    
+    .address-content, .contact-content {
+    font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width: 1720px) {
+    
+    #footer-grid {
+        grid-template-columns: 250px 250px auto 250px;
+        grid-template-rows: 160px 160px;
+        grid-template-areas: 
+                            "ab cb . ib"
+                            "ab cb . ob"
+    }
+
+    .address-content, .contact-content {
+    font-size: 1.8em;
+    padding: 20px;
+    }
+
+    #eho-image {
+    width: 120px;
+    height: auto;
+    }
+
+    .copy-content {
+        font-size: 1.4em;
+    }
+
+    .design-content {
+        font-size: 1.4em;
+    }
+}

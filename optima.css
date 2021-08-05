@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    text-emphasis: bold;
+  }
+
+#optima-description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px 50px;
+  }
+
+  button {
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 650px;
+    height: 50px;
+    font-size: 22px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 1%;
+    cursor: pointer;
+    font-weight: 800px;
+  }
+
+  hr {
+    border: 1px solid black;
+    border-radius: 2px; 
+    margin-top: 15px; 
+    margin-bottom: 15px
+  }

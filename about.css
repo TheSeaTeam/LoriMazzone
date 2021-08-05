@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background: whitesmoke
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  text-emphasis: bold;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+#lori-description {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 20px 50px;
+}
+
+#portrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+  
+.card-container {
+    width: 2050px;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4 4 4 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+ .column {
+  
+    flex: 25%;
+    max-width: 25%;
+    padding: 4 4 4 4px;
+  }
+  
+  .column img {
+    
+    vertical-align: middle;
+    width: 100%;
+  }
+  hr {
+    border: 1px solid whitesmoke;
+    border-radius: 2px; 
+    margin-top: 15px; 
+    margin-bottom: 15px
+  }
+ 
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @container (max-width: 850px) {
+    .links {
+      display: none;
+    }
+  
+    .time {
+      font-size: 1.25rem;
+    }
+  
+    
+  }
+  
+  /* when the parent container is smaller than 650px, 
+  decrease the .card element's grid gap to 1rem */
+  
+  @container (max-width: 650px) {
+    .card {
+      gap: 1rem;
+    }
+  
+    
+  } 

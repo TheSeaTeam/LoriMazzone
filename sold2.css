@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+#property-grid {
+    display: grid;
+}
+
+.property-card-odd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%
+}
+
+.property-card-even {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+}
+
+.description-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.address-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.rooms-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.price-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.descript-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.image-wrap img {
+    width: 100%;
+    max-width: 550px;
+    min-width: 260px;
+}
+
+.descript {
+    max-width: 550px;
+}
+
+.price {
+    color:crimson;
+}
+
+@media only screen and (min-width: 900px) {
+    
+    .property-card-odd {
+    display: flex;
+    flex-direction: row;
+    justify-content: spa;
+    width: 100%;
+    }
+
+    .property-card-even {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    }
+}
