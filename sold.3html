@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="nav.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <!--<link rel="stylesheet" type="text/css" href="sold.css">-->
+    <link rel="stylesheet" type="text/css" href="sold.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,11 +48,7 @@
             <div>
                 <h2>1453 Miller Avenue</h2>
                 <h3>4 BD | 3.5 BA | 3,050 SQ FT</h3>
-<<<<<<< HEAD
                 <p>Enjoy this meticulously crafted custom home built by Fortis Enterprises, in this highly desired
-=======
-                <p id="property-description">Enjoy another meticulously crafted custom home built by Fortis Enterprises, in this highly desired
->>>>>>> 754c2c9a06265338e5fc7ba443b7373e51cef8ed
                     unincorporated Winter Park neighborhood. As you walk up to this stunning brick accented custom home
                     you will enjoy a covered porch with Pavers, a metal porch roof and spectacular tongue and groove
                     ceiling. This custom home invites you to enjoy the rich dark wood flooring throughout the main area.
@@ -328,11 +324,7 @@
             <div>
                 <h2>8769 Belter Drive</h2>
                 <h3>3 BD | 2 BA | 1,932 SQ FT</h3>
-<<<<<<< HEAD
                 <p>This immaculate Custom Built Home is a one of a kind Gem. This home is located in the desirable
-=======
-                <p id="property-description">his immaculate Custom Built Home is a one of a kind Gem. This home is located in the desirable
->>>>>>> 754c2c9a06265338e5fc7ba443b7373e51cef8ed
                     Community of Lake Irma Estates. As you walk up to the covered front porch and enter the double front
                     doors, you are surrounded with natural light from every angle in this lovely home. The focal point
                     in the stunning great room is your whitewashed wood burning fireplace, the 18' ceilings and the
