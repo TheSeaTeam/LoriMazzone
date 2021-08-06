@@ -9,6 +9,12 @@ body {
     background-color: #d3d3d3;
 }
 
+.banner {
+    width: 100%;
+    height: auto;
+
+}
+
 .video-container {
     height: 900px;
     width: auto;
