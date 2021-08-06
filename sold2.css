@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+#property-grid {
+    display: grid;
+}
+
+.property-card-odd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%
+}
+
+.property-card-even {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+}
+
+.description-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.headerP-description-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerC {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.headerC {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerD {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+hr {
+    border: 1px solid whitesmoke;
+    border-radius: 2px; 
+    margin-top: 15px; 
+    margin-bottom: 15px
+  }
+
+.headerA {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 56px;
+    color:black;
+    text-align: center;
+  }
+  .headerB {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+  }
+
+  .headerC {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #404040;
+    text-align: center;
+  }
+
+  .headerD {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #404040;
+    text-align: center;
+  }
+
+.address-wrap {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.rooms-wrap {
+    display: flex;
+    font-size: 20px;
+    color:grey;
+    justify-content: center;
+    padding: 10px;
+}
+
+.price-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.descript-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.image-wrap img {
+    width: 100%;
+    max-width: 550px;
+    min-width: 260px;
+}
+
+.descript {
+    max-width: 550px;
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 20px 20px;
+}
+
+.price {
+    color:crimson;
+    font-size: 24px;
+}
+
+hr.sep-2 {
+    border: 0; 
+    height: 3px; 
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, #f0f0f0, #b63ded, #26269e, #f0f0f0);
+  }
+  
+  hr.oct-2 {
+    border: 0; 
+    height: 3px; 
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, #f0f0f0, #26269e, #b63ded, #f0f0f0);
+  }
+
+@media only screen and (min-width: 900px) {
+    
+    .property-card-odd {
+    display: flex;
+    flex-direction: row;
+    justify-content: spa;
+    width: 100%;
+    }
+
+    .property-card-even {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    }
+}
