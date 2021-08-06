@@ -6,7 +6,7 @@
 
 body {
     height: 100%;
-    background-color: whitesmoke;
+    background-color: #d3d3d3;
 }
 
 .banner {
@@ -64,7 +64,7 @@ button {
   font-weight: 800px;
 }
 hr {
-  border: 1px solid black;
+  border: 1px solid #d3d3d3;
   border-radius: 2px; 
   margin-top: 15px; 
   margin-bottom: 15px
@@ -89,10 +89,10 @@ hr {
 /*functional contact form*/
 .form {
   width: 600px;
-  border: solid 3px black;
-  color: #2f2f2f;
-  background-color: #1CDDBE;
-  opacity: 0.85;
+  border: solid 1px black;
+  color: black;
+  background-color: #5c94ed;
+
   font-weight: 200;
   padding: 3%;
   border-radius: 5px;
@@ -116,9 +116,9 @@ hr {
 
   /*functional contact form*/
 .form {
-  border: solid 3px black;
-  color: #2f2f2f;
-  background-color: #1CDDBE;
+  border: solid 1px black;
+  color: black;
+  background-color: #5c94ed;
   font-weight: 800;
   padding: 3%;
   border-radius: 5px;

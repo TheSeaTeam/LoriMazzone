@@ -6,7 +6,7 @@
 
 body {
     height: 100%;
-    background: whitesmoke
+    background: #d3d3d3;
 }
 
 h1 {
@@ -62,7 +62,7 @@ img {
     width: 100%;
   }
   hr {
-    border: 1px solid whitesmoke;
+    border: 1px solid #d3d3d3;
     border-radius: 2px; 
     margin-top: 15px; 
     margin-bottom: 15px
