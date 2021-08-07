@@ -39,6 +39,24 @@ hr {
     text-emphasis: bold;
   }
 
+  h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    color: white;
+    text-shadow: 2px 2px #b63ded;
+    text-align: center;
+    text-emphasis: bold;
+  }
+
+  h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    color: white;
+    
+    text-align: center;
+    text-emphasis: bold;
+  }
+
   .group {
     display: flex;
     flex-direction: column;
