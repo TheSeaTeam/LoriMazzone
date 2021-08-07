@@ -28,6 +28,7 @@ a {
 .menu, 
 .submenu {
     list-style-type: none;
+    
 }
 
 .logo {
@@ -113,13 +114,14 @@ a {
 }
 
 .submenu-active {
-    background-color: rgba(0,0,0,0.7);;
+    background-color: rgba(0,0,0,0.7);
     border-radius: 3px;
     z-index: 1000;
 }
 
 .has-submenu {
     cursor: pointer;
+    
 }
 
 /* Pixel 2 styling */
@@ -145,7 +147,7 @@ a {
         position: absolute;
         left: 0;
         top: 68px;
-        background: white;
+        background: rgba(0,0,0,0.7);
     }
 
     .toggle {
