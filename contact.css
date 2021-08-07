@@ -65,6 +65,14 @@ html {
     padding: 20px 50px;
   }
 
+#lorim-contact a{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 50px;
+  }
+
 button {
   background-color: whitesmoke;
   font-family: 'Times New Roman', Times, serif;
