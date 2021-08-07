@@ -64,7 +64,7 @@ html {
     font-size: 24px;
     padding: 20px 50px;
   }
-  
+
 button {
   background-color: whitesmoke;
   font-family: 'Times New Roman', Times, serif;
@@ -102,10 +102,11 @@ hr {
 }
 /*functional contact form*/
 .form {
-  width: 600px;
+    width: 100%;
+    height: auto;
   border: solid 1px black;
   color: black;
-  background-color: #65d1e0;
+  background: rgba(101,209,224,0.5);
 
   font-weight: 200;
   padding: 3%;
@@ -130,9 +131,11 @@ hr {
 
   /*functional contact form*/
 .form {
+    width: 100%;
+    height: auto;
   border: solid 1px black;
   color: black;
-  background-color: #65d1e0;
+  background: rgba(101,209,224,0.5);
   font-weight: 800;
   padding: 3%;
   border-radius: 5px;
