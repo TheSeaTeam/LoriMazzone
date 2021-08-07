@@ -11,6 +11,21 @@ html, body {
     background-color: #f0f0f0;
 }
 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    color: black;
+    text-align: center;
+    text-emphasis: bold;
+  }
+
+  h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color:black;
+    text-align: center;
+  }
+
 #property-grid {
     display: grid;
 }
@@ -118,11 +133,28 @@ hr {
     text-align: center;
   }
 
-  .headerP-description-box a {
+  .headerD a {
     color: #0000FF;
     padding: 0px 10px;
+    font-size: 32px;
+    text-align: center;
  
 }
+
+#lorim-contact {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 50px;
+  }
+
+  #lorim-contact a{
+      color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+    
+  }
 
 
 
