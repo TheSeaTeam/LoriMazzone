@@ -8,7 +8,7 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #d3d3d3;
+    background-color: #f0f0f0;
 }
 
 #property-grid {
@@ -76,21 +76,23 @@ html, body {
 
 
 hr {
-    border: 1px solid #d3d3d3;
+    border: 1px solid #f0f0f0;
     border-radius: 2px; 
     margin-top: 15px; 
     margin-bottom: 15px
   }
 
 .headerA {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 56px;
-    color:black;
-    text-align: center;
-  }
+    
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 42px;
+        color: black;
+        text-align: center;
+        text-emphasis: bold;
+      }
   .headerB {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     text-align: center;
   }

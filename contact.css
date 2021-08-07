@@ -6,7 +6,7 @@
 
 body {
     height: 100%;
-    background-color: #d3d3d3;
+    background-color: #f0f0f0;
 }
 
 .banner {
@@ -15,14 +15,14 @@ body {
 
 }
 
-
 h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 36px;
-  color: black;
-  text-align: center;
-  text-emphasis: bold;
-} 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    color: black;
+    text-align: center;
+    text-emphasis: bold;
+  }
+   
 h2 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 36px;
@@ -71,7 +71,7 @@ button {
   font-weight: 800px;
 }
 hr {
-  border: 1px solid #d3d3d3;
+  border: 1px solid #f0f0f0;
   border-radius: 2px; 
   margin-top: 15px; 
   margin-bottom: 15px
