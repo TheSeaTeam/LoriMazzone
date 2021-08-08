@@ -67,6 +67,12 @@ img {
     margin-top: 15px; 
     margin-bottom: 15px
   }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
  
   
   /* Responsive layout - makes a two column-layout instead of four columns */
