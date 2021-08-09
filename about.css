@@ -107,11 +107,10 @@ img {
   .slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
-    width: 600px;
-    height: 600px;
-    margin-right: 50px;
-    border-radius: 10px;
-    background: url("assets/1372155.jpg") no-repeat fixed center;
+    width: 450px;
+    height: 450px;
+
+    background: black;
     transform-origin: center center;
     transform: scale(1);
     transition: transform 0.5s;
