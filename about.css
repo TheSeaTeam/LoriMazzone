@@ -75,6 +75,7 @@ img {
     height: auto;
     text-align: center;
     overflow: hidden;
+   background-color: #f0f0f0;
   }
   
   .slides {
@@ -179,11 +180,8 @@ img {
       display: none;
     }
   }
-  
 
 
- 
-  
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
