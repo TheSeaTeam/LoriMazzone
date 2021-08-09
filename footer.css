@@ -167,10 +167,20 @@ footer {
     padding: 20px;
     }
 
-    #eho-image {
+#eho-image {
     width: 120px;
     height: auto;
-    }
+}
+
+#realtor-image {
+     width: 80px;
+    height: auto;
+}
+
+#mls-image {
+    width: 80px;
+    height: auto;
+}
 
     .copy-content {
         font-size: 1.4em;

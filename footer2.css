@@ -1,19 +1,49 @@
 /* Generic styling */
 * {
     box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+   
     margin: 0;
     padding: 0;
   }
   ul {
     list-style: none;
     padding-left: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
   }
+
+  h4 {
+    list-style: none;
+    padding-left: 0;
+    
+    padding-top: 3em;
+    color: white;
+    text-shadow: 1px 1px #d12131;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+
+  }
+
+  h5 {
+    list-style: none;
+    padding-right: 0;
+    
+    padding-top: 3em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+
+  }
+
+
   footer {
     background-color: #555;
     color: #bbb;
-    line-height: 1.5;
+    line-height: 1.5; 
   }
+
+
   footer a {
     text-decoration: none;
     color: #eee;
@@ -21,20 +51,17 @@
   a:hover {
     text-decoration: underline;
   }
-  .ft-title {
-    color: #fff;
-    font-family: "Merriweather", serif;
-    font-size: 1.375rem;
-    padding-bottom: 0.625rem;
-  }
+
   /* Sticks footer to bottom */
   body {
     display: flex;
-    min-height: 100vh;
+    max-height: 100vh;
     flex-direction: column;
   }
   .container {
     flex: 1;
+    
+    
   }
   /* Footer main */
   .ft-main {
@@ -42,39 +69,20 @@
     display: flex;
     flex-wrap: wrap;
   }
-  @media only screen and (min-width: 29.8125rem /* 477px */) {
-    .ft-main {
-      justify-content: space-evenly;
-    }
-  }
-  @media only screen and (min-width: 77.5rem /* 1240px */) {
-    .ft-main {
-      justify-content: space-evenly;
-    }
-  }
+
   .ft-main-item {
-    padding: 1.25rem;
+    padding: 0.25rem;
     min-width: 12.5rem;
   }
+
+  .ft-main-item2 {
+   
+    min-width: 12.5rem;
+  }
+
+
   
-  /* Footer main | Newsletter form */
-  form {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  input[type="email"] {
-    border: 0;
-    padding: 0.625rem;
-    margin-top: 0.3125rem;
-  }
-  input[type="submit"] {
-    background-color: #00d188;
-    color: #fff;
-    cursor: pointer;
-    border: 0;
-    padding: 0.625rem 0.9375rem;
-    margin-top: 0.3125rem;
-  }
+
   /* Footer social */
   .ft-social {
     padding: 0 1.875rem 1.25rem;
@@ -86,12 +94,12 @@
     padding-top: 1.25rem;
   }
   .ft-social-list li {
-    margin: 0.5rem;
-    font-size: 1.25rem;
+    margin: 1.5rem;
+    font-size: 3.25rem;
   }
   /* Footer legal */
   .ft-legal {
-    padding: 0.9375rem 1.875rem;
+    padding: 0.9375rem 2.0rem 1.875rem;
     background-color: #333;
   }
   .ft-legal-list {
@@ -106,4 +114,43 @@
   /* one before the last child */
   .ft-legal-list li:nth-last-child(2) {
       flex: 1;
+  }
+
+  #optima-logo {
+    width: 240px;
+    height: auto;
+    padding-top: 6em;
+}
+
+#icon-white {
+    width: 300px;
+    height: auto;
+    padding-top: 6em;
+  
+}
+
+#eho-image {
+    width: 60px;
+    height: auto;
+}
+
+#realtor-image {
+     width: 45px;
+    height: auto;
+}
+
+#mls-image {
+    width: 80px;
+    height: auto;
+}
+
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
   }
