@@ -81,22 +81,57 @@ hr {
 }
   
 
-  .group {
+#property-grid {
+    display: grid;
+}
+
+.property-card-odd {
     display: flex;
     flex-direction: column;
-    gap: 3%;
-  }
+    justify-content: space-evenly;
+    width: 100%
+}
 
-  .homepage-images {
-    flex-direction: row;
-  }
-  
-  .homepage-images img {
-    height: 33%;
-    width: 33%;
-    border: 2px solid black;
-    border-radius: 3px;
-  }
+.property-card-even {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+.description-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-wrap img {
+    width: 100%;
+    max-width: 550px;
+    min-width: 260px;
+}
+
+.descript {
+    max-width: 550px;
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 20px 20px;
+}
+
+.descript-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
 
 .video-container1 {
     height: 1080px;
@@ -115,15 +150,15 @@ hr {
 }
 
 .video-container {
-    height: 100vh;
+    height: 90vh;
     width: auto;
     overflow: hidden;
     position: relative;
 }
 
 .video-container video {
-    min-width: auto;
-    min-height: 100vh;
+    min-width: 100vh;
+    height: auto;
     object-fit: cover;
     position: absolute;
     top: 50%;
@@ -145,32 +180,49 @@ hr {
 @media screen and (min-width: 1024px) {
 
     .video-container {
-        min-height: 1370px;
+        max-height: 1370px;
     }
 
     .video-container video {
-        min-height: 1370px;
+        max-height: 1370px;
 }
 }
 
 @media screen and (min-width: 2560px) {
     
     .video-container {
-        min-height: 1440px;
+        max-height: 1440px;
     }
 
     .video-container video {
-        min-height: 1440px;
+        max-height: 1440px;
     }
 }
 
 @media screen and (min-width: 3840px) {
     
     .video-container {
-        min-height: 2160px;
+        max-height: 2160px;
     }
 
     .video-container video {
-        min-height: 2160px;
+        max-height: 2160px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    
+    .property-card-odd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    }
+
+    .property-card-even {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
     }
 }
