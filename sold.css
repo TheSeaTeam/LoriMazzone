@@ -193,6 +193,10 @@ hr {
     width: 100%;
     max-width: 550px;
     min-width: 260px;
+    border: solid 2px black;
+    background: linear-gradient(to right, #8850e5 0%, #65d1e0 100%);
+    padding: 3px;
+  
 }
 
 .descript {
