@@ -15,14 +15,14 @@ nav {
    
     background: #555;
     padding: 0 15px;
-    font-family: 'Roboto, sans-serif';
-    font-size: 20px;
+  
    
 }
 
-a {
+nav a {
     color: white; 
-    
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ a {
 } 
 
 .logo-image {
-    width: 90px;
+    width: 85px;
     height: auto;
    
 }
