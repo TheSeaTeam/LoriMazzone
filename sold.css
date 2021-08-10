@@ -18,7 +18,7 @@ html, body {
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
     color: black;
     text-align: center;
@@ -162,16 +162,12 @@ hr {
     
   }
 
-
-
 .address-wrap {
     color: black;
     font-size: 24px;
     display: flex;
     justify-content: center;
 }
-
-
 
 .rooms-wrap {
     display: flex;
@@ -232,7 +228,7 @@ hr.sep-2 {
     .property-card-odd {
     display: flex;
     flex-direction: row;
-    justify-content: spa;
+    justify-content: space-evenly;
     width: 100%;
     }
 

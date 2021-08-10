@@ -16,7 +16,7 @@ html, body {
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
     color: black;
     text-align: center;
@@ -43,6 +43,7 @@ hr {
 
 #lorim-contact {
     font-family: 'Times New Roman', Times, serif;
+    color: black;
     text-align: center;
     font-size: 24px;
     padding: 20px 50px;
@@ -52,6 +53,14 @@ hr {
       color: blue;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 24px;  
+  }
+
+
+
+  #current-description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px 80px 20px 80px;
     
   }

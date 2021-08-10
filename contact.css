@@ -22,7 +22,7 @@ html, body {
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
     color: black;
     text-align: center;
@@ -51,7 +51,9 @@ h2 {
 #some-lori-cd {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 22px;  
+    font-size: 24px; 
+    padding: 20px 150px 20px 150px; 
+    font-weight: 300;
 }
 
 .contact-lori-description {
@@ -70,7 +72,7 @@ h2 {
 
 #lorim-contact a{
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: blue;
     text-align: center;
     font-size: 24px;
     padding: 20px 50px;
