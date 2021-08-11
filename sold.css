@@ -211,6 +211,21 @@ hr {
     font-size: 24px;
 }
 
+
+.top-of-page {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#button-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
 hr.sep-2 {
     border: 0; 
     height: 3px; 
@@ -242,4 +257,20 @@ hr.sep-2 {
     justify-content: space-evenly;
     width: 100%;
     }
+}
+
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .top-of-page {
+    justify-content: space-evenly;
+  }
+ 
+
+
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .top-of-page {
+    justify-content: space-evenly;
+  }
+
+ 
 }
