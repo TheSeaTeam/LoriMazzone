@@ -15,8 +15,8 @@
 
   h4 {
     list-style: none;
-    padding-left: .25em;
-    padding-top: 1.65em;
+   text-align: left;
+    padding-top: 1.75em;
     color: white;
     text-shadow: 4px 4px black;
     font-family: 'Times New Roman', Times, serif;
@@ -26,8 +26,8 @@
 
   h5 {
     list-style: none;
-    
-    padding-top: 0.75em;
+    text-align: left;
+    padding-top: 0.8em;
     color: white;
     text-shadow: 4px 4px black;
     font-family: 'Times New Roman', Times, serif;
@@ -114,7 +114,7 @@
   }
 
   #optima-logo {
-    width: 240px;
+    width: 230px;
     height: auto;
     padding-top: 1.8em;
     padding-left: 0em;
@@ -123,6 +123,7 @@
 
 #icon-white {
     width: 290px;
+   
     height: auto;
     padding-top: 3.5em;
     padding-left: 0em;
