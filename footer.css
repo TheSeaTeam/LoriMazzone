@@ -67,6 +67,8 @@
    
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 1.7em;
+    padding-top: .5em;
   }
 
   .ft-main-item {
