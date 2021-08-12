@@ -30,7 +30,7 @@ img {
 
 #lori-description {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 21px;
+  font-size: 4vw;
   padding: 20px 80px 20px 80px;
   color: black;
  }
@@ -38,7 +38,7 @@ img {
 
 #lori-description a{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 21px;
+    font-size: 4vw;
 
     color:  #0000EE;
    }
@@ -48,7 +48,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 
