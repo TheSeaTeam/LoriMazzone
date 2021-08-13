@@ -167,7 +167,11 @@
 
     .ft-legal {
         justify-content: space-evenly;
-        height: 24%;
-        width: 24%;
+    
     }
+}
+
+.ft-social-list li {
+  margin: .5rem;
+  font-size: 0.75rem;
 }
