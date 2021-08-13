@@ -25,7 +25,7 @@ html, body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     color: black;
     text-align: center;
     text-emphasis: bold;
@@ -40,9 +40,6 @@ h2 {
 
 
 
-
-
-
 #contact-description {
 
   font-family: 'Times New Roman', Times, serif;
@@ -53,22 +50,22 @@ h2 {
 #some-lori-cd {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 18px; 
-    padding: 20px 50px 20px 50px; 
+    font-size: 20px; 
+    padding: 20px 20px 20px 20px; 
     
 }
 
 .contact-lori-description {
     font-family: 'Times New Roman', Times, serif;
   justify-content: center;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }
 
 #lorim-contact {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px 50px;
   }
 
@@ -76,7 +73,7 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     color:  #0000EE;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px 50px;
   }
 

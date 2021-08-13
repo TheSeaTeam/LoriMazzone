@@ -33,7 +33,7 @@ hr {
 
   h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     color: black;
     text-align: center;
     text-emphasis: bold;
@@ -186,12 +186,7 @@ hr {
         max-height: 1370px;
 }
 }
-.image-wrap img {
-    width: 100%;
-    max-width: 240px;
-    min-width: 180px;
-    border: solid 2px black;
-}
+
 
 @media screen and (min-width: 2560px) {
     
@@ -204,12 +199,7 @@ hr {
     }
 }
 
-.image-wrap img {
-    width: 100%;
-    max-width: 240px;
-    min-width: 180px;
-    border: solid 2px black;
-}
+
 
 @media screen and (min-width: 3840px) {
     
@@ -222,12 +212,7 @@ hr {
     }
 }
 
-.image-wrap img {
-    width: 100%;
-    max-width: 240px;
-    min-width: 180px;
-    border: solid 2px black;
-}
+
 
 @media only screen and (min-width: 900px) {
     
@@ -244,10 +229,4 @@ hr {
     justify-content: space-evenly;
     width: 100%;
     }
-}
-.image-wrap img {
-    width: 100%;
-    max-width: 240px;
-    min-width: 180px;
-    border: solid 2px black;
 }

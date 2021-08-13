@@ -20,7 +20,7 @@ html, body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     color: black;
     text-align: center;
     text-emphasis: bold;
@@ -151,7 +151,7 @@ hr {
 #lorim-contact {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px 50px;
   }
 
@@ -159,7 +159,7 @@ hr {
       color:  #0000EE;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     
   }
 
