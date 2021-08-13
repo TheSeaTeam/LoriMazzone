@@ -173,5 +173,21 @@
 
 .ft-social-list li {
   margin: .5rem;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
+}
+
+#eho-image {
+  width: 25px;
+  height: auto;
+}
+
+#realtor-image {
+   width: 20px;
+  height: auto;
+  padding-top: 0.15em;
+}
+
+#mls-image {
+  width: 40px;
+  height: auto;
 }

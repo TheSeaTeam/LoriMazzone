@@ -271,7 +271,7 @@ hr.sep-2 {
 
 @media only screen and (min-width: 29.8125rem /* 477px */) {
   .top-of-page {
-    justify-content: space-evenly;
+    justify-content:center;
   }
  
 
