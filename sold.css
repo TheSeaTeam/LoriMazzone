@@ -69,33 +69,6 @@ h1 {
     padding: 10px;
 }
 
-.headerP-description-box {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.headerC {
-    color: black;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
-.headerC {
-    color: black;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
-
-.headerD {
-    color: black;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
-
-
 
 hr {
     border: 1px solid #f0f0f0;
@@ -104,49 +77,6 @@ hr {
     margin-bottom: 15px
   }
 
-.headerA {
-    
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 42px;
-        color: black;
-        text-align: center;
-        text-emphasis: bold;
-      }
-  .headerB {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: black;
-    text-align: center;
-  }
-
-  .headerC {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
-    color: #404040;
-    text-align: center;
-  }
-
-  .headerD {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
-    color: #404040;
-    text-align: center;
-  }
-
-  .headerD {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
-   
-    text-align: center;
-  }
-
-  .headerD a {
-    color: #0000FF;
-    padding: 0px 10px;
-    font-size: 32px;
-    text-align: center;
- 
-}
 
 #lorim-contact {
     font-family: 'Times New Roman', Times, serif;

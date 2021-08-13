@@ -48,7 +48,7 @@ hr {
 	font-size:14px;
 	padding:16px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px blue;
+	text-shadow:0px 1px 0px white;
 }
 .myButton:hover {
 	background-color:#555;
