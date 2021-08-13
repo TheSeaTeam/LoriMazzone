@@ -165,7 +165,7 @@ hr {
 
 .address-wrap {
     color: black;
-    font-size: 24px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
 }
@@ -218,7 +218,7 @@ font-size: 18px;
 
 .price {
     color:crimson;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 
@@ -226,11 +226,12 @@ font-size: 18px;
   padding: 1.25rem 1.875rem;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 #button-round {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 100px;
   height: 100px;
@@ -267,11 +268,15 @@ hr.sep-2 {
     justify-content: space-evenly;
     width: 100%;
     }
+
+    .top-of-page {
+      justify-content: space-evenly;
+    }
 }
 
 @media only screen and (min-width: 29.8125rem /* 477px */) {
   .top-of-page {
-    justify-content:center;
+    justify-content: space-evenly;
   }
  
 

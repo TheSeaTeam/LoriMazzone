@@ -115,7 +115,7 @@ hr {
 }
 /*functional contact form*/
 .form {
-    width: 100%;
+    width: 90vw;
     height: auto;
   border: solid 1px black;
   color: black;
@@ -139,12 +139,12 @@ hr {
     flex-direction: row;
   }
   form {
-    width: 45%;
+    width: 50vw;
   }
 
   /*functional contact form*/
 .form {
-    width: 80%;
+    width: 50vw;
     height: auto;
   border: solid 1px black;
   color: black;
