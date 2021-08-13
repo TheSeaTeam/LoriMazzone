@@ -21,7 +21,7 @@ html, body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5vw;
+    font-size: 36px;
     color: black;
     text-align: center;
     text-emphasis: bold;
@@ -34,7 +34,7 @@ img {
 
 #lori-description {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 2vw;
+  font-size: 18px;
   padding: 20px 80px 20px 80px;
   color: black;
  }
@@ -42,7 +42,7 @@ img {
 
 #lori-description a{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2vw;
+    font-size: 18px;
 
     color:  #0000EE;
    }
@@ -226,6 +226,11 @@ img {
   
     
   }
+
+  img {
+    height: 200px;
+    width: 200px;
+}
   
   /* when the parent container is smaller than 650px, 
   decrease the .card element's grid gap to 1rem */

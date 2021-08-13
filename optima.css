@@ -16,14 +16,14 @@ html, body {
 }
 
 .banner {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5vw;
+    font-size: 36px;
     color: black;
     text-align: center;
     text-emphasis: bold;
@@ -32,14 +32,14 @@ h1 {
 
 #optima-description {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 21px;
+    font-size: 18px;
     padding: 20px 50px;
   }
 
   #optima-contact {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     padding: 20px 50px;
   }
 
@@ -47,7 +47,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     color:  #0000EE;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     padding: 20px 50px;
   }
 

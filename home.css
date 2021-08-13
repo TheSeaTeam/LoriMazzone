@@ -33,7 +33,7 @@ hr {
 
   h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5vw;
+    font-size: 36px;
     color: black;
     text-align: center;
     text-emphasis: bold;
@@ -122,7 +122,7 @@ hr {
 .descript {
     max-width: 550px;
     font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 18px;
   padding: 20px 20px;
 }
 
@@ -186,6 +186,12 @@ hr {
         max-height: 1370px;
 }
 }
+.image-wrap img {
+    width: 100%;
+    max-width: 240px;
+    min-width: 180px;
+    border: solid 2px black;
+}
 
 @media screen and (min-width: 2560px) {
     
@@ -198,6 +204,13 @@ hr {
     }
 }
 
+.image-wrap img {
+    width: 100%;
+    max-width: 240px;
+    min-width: 180px;
+    border: solid 2px black;
+}
+
 @media screen and (min-width: 3840px) {
     
     .video-container {
@@ -207,6 +220,13 @@ hr {
     .video-container video {
         max-height: 2160px;
     }
+}
+
+.image-wrap img {
+    width: 100%;
+    max-width: 240px;
+    min-width: 180px;
+    border: solid 2px black;
 }
 
 @media only screen and (min-width: 900px) {
@@ -224,4 +244,10 @@ hr {
     justify-content: space-evenly;
     width: 100%;
     }
+}
+.image-wrap img {
+    width: 100%;
+    max-width: 240px;
+    min-width: 180px;
+    border: solid 2px black;
 }
