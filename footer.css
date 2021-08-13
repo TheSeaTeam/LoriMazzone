@@ -172,22 +172,22 @@
 }
 
 .ft-social-list li {
-  margin: .5rem;
-  font-size: 1.25rem;
+  margin: .9rem;
+  font-size: 2.0rem;
 }
 
 #eho-image {
-  width: 25px;
+  width: 40px;
   height: auto;
 }
 
 #realtor-image {
-   width: 20px;
+   width: 30px;
   height: auto;
   padding-top: 0.15em;
 }
 
 #mls-image {
-  width: 40px;
+  width: 50px;
   height: auto;
 }

@@ -28,8 +28,8 @@ h1 {
   }
 
 img {
-    height: 50vw;
-    width: 50vw;
+    height: 55vw;
+    width: 55vw;
 }
 
 #lori-description {
@@ -214,10 +214,7 @@ img {
       flex: 100%;
       max-width: 100%;
     }
-    img {
-      height: 60vw;
-      width: 60vw;
-  }
+
   }
 
   @container (max-width: 850px) {
@@ -232,10 +229,6 @@ img {
     
   }
 
-  img {
-    max-height: 60vw;
-    max-width: 60vw;
-}
   
   /* when the parent container is smaller than 650px, 
   decrease the .card element's grid gap to 1rem */

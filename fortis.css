@@ -45,7 +45,7 @@ hr {
 	cursor:pointer;
 	color:#ffffff;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size:22px;
+	font-size:16px;
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
@@ -95,7 +95,7 @@ hr {
   
   }
   @media only screen and (min-width: 77.5rem /* 1240px */) {
-    .foris-button {
+    .fortis-button {
       justify-content: space-evenly;
     }
   
