@@ -67,11 +67,12 @@
    
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 1.7em;
+ 
     padding-top: .5em;
   }
 
   .ft-main-item {
+    padding-left: 0.25rem;
     padding: 0.15rem;
     min-width: 12.5rem;
   }
@@ -93,7 +94,7 @@
   }
   .ft-social-list li {
     margin: 1.5rem;
-    font-size: 2.25rem;
+    font-size: 2.0rem;
   }
   /* Footer legal */
   .ft-legal {
@@ -120,7 +121,7 @@
     width: 230px;
     height: auto;
     padding-top: 1.8em;
-    padding-left: 0em;
+    padding-left: 0.25em;
 
 }
 
@@ -128,8 +129,8 @@
     width: 290px;
    
     height: auto;
-    padding-top: 3.5em;
-    padding-left: 0em;
+    padding-top: 2.8em;
+    padding-left: 0.25em;
   
   
 }
@@ -173,22 +174,22 @@
 }
 
 .ft-social-list li {
-  margin: .9rem;
-  font-size: 2.0rem;
+  margin: 0.8rem;
+  font-size: 1.8rem;
 }
 
 #eho-image {
-  width: 40px;
+  width: 36px;
   height: auto;
 }
 
 #realtor-image {
-   width: 30px;
+   width: 27px;
   height: auto;
   padding-top: 0.15em;
 }
 
 #mls-image {
-  width: 50px;
+  width: 45px;
   height: auto;
 }
