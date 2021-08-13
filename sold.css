@@ -208,14 +208,16 @@ hr.sep-2 {
   .top-of-page {
     justify-content: space-evenly;
   }
- 
-
 
 }
 @media only screen and (min-width: 77.5rem /* 1240px */) {
   .top-of-page {
     justify-content: space-evenly;
   }
+}
 
- 
+@media only screen and (min-width: 20rem /* 1240px */) {
+  .top-of-page {
+    justify-content: space-evenly;
+  }
 }

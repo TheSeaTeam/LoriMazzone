@@ -15,8 +15,9 @@
 
   h4 {
     list-style: none;
+    padding-top: .8em;
    text-align: left;
-    padding-top: 0.5em;
+   
     color: white;
     text-shadow: 4px 4px black;
     font-family: 'Times New Roman', Times, serif;
@@ -26,8 +27,9 @@
 
   h5 {
     list-style: none;
+    padding-top: .8em;
     text-align: left;
-    padding-top: 0.5em;
+   
     color: white;
     text-shadow: 4px 4px black;
     font-family: 'Times New Roman', Times, serif;
@@ -67,12 +69,12 @@
    
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0.75rem;
+    padding-left: 1.75rem;
     padding-top: .5em;
   }
 
   .ft-main-item {
-    padding-left: 0.75rem;
+    padding-left: 1.75rem;
     padding: 0.15rem;
     min-width: 12.5rem;
   }
@@ -121,7 +123,7 @@
     width: 230px;
     height: auto;
     padding-top: 1.8em;
-    padding-left: 0.75em;
+   
 
 }
 
@@ -129,10 +131,8 @@
     width: 290px;
    
     height: auto;
-    padding-top: 2.8em;
-    padding-left: 0.75em;
-  
-  
+    padding-top: 1.8em;
+
 }
 
 #eho-image {

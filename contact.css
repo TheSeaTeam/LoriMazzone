@@ -163,3 +163,36 @@ hr {
 
 
 }
+
+/*media query*/
+@media all and (max-width: 320px) {
+  .group {
+    flex-direction: left;
+  }
+  form {
+    width: 20vw;
+    flex-direction: row;
+  }
+
+  /*functional contact form*/
+.form {
+  flex-direction: row;
+    width: 20vw;
+    height: auto;
+  border: solid 1px black;
+  color: black;
+  background: rgba(101,209,224,0.5);
+  font-weight: 800;
+  padding: 3%;
+  border-radius: 5px;
+  margin-bottom: 3%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+
+}
