@@ -39,7 +39,7 @@
 
 
   footer {
-    background-color: #555;
+    background-color: #39078e;
     color: #bbb;
     line-height: 1.5; 
   }
@@ -101,7 +101,7 @@
   /* Footer legal */
   .ft-legal {
     padding: 0.9375rem 2.0rem 1.875rem;
-    background-color: #333;
+    background-color: #250950;
   }
   .ft-legal-list {
     width: 100%;
