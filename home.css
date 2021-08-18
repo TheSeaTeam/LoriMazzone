@@ -67,7 +67,7 @@ hr {
   background: linear-gradient(90deg, #fff, #65d1e0, #fff);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 5s linear infinite;
+  animation: animate 17s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
